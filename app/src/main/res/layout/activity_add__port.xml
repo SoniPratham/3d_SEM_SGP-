@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Port">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:background="@drawable/wall"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".Registration">
+
+        <TextView
+            android:textSize="25dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="Work Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+
+        <EditText
+            android:background="@drawable/edittext"
+            android:padding="10dp"
+            android:id="@+id/pr_tl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:gravity="top"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext"
+            android:padding="10dp"
+            android:id="@+id/pr_inf"
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="Information">
+            
+        </EditText>
+
+
+        <EditText
+            android:background="@drawable/edittext"
+            android:padding="10dp"
+            android:id="@+id/pr_lk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Link"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:background="@drawable/edittext"
+            android:padding="10dp"
+            android:id="@+id/pr_tc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Technology"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:background="#FBC02D"
+            android:id="@+id/pr_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>
+    </LinearLayout>

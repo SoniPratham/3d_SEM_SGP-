@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:background="#26a69a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:padding="10dp"
+            android:background="#009688"
+            android:id="@+id/wp_tl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:id="@+id/wp_inf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Information"
+            android:padding="5dp"
+            >
+
+        </TextView>
+
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:id="@+id/wp_tch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Technology"
+            >
+
+        </TextView>
+
+
+        <TextView
+            android:background="#009688"
+            android:padding="15dp"
+            android:textSize="25dp"
+            android:textColor="#F4F2F0"
+            android:id="@+id/wp_lk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Link"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

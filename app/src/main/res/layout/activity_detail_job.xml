@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_job">
+
+
+    <LinearLayout
+        android:padding="4dp"
+        android:layout_margin="1dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/coi"
+                android:padding="15dp"
+                android:background="#CFD8DC"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:text="Company Information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nm"
+                android:padding="10dp"
+                android:background="#90A4AE"
+                android:textStyle=""
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+                android:text="Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/eml"
+                android:padding="10dp"
+                android:background="#78909C"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+                android:text="Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/cno"
+                android:padding="10dp"
+                android:background="#607D8B"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+                android:text="Contact No."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/add"
+                android:padding="10dp"
+                android:background="#546E7A"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+                android:text="Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/jbi"
+                android:padding="15dp"
+                android:background="#CFD8DC"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textSize="30dp"
+                android:textColor="#050505"
+                android:text="Job Information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/pst"
+                android:padding="10dp"
+                android:background="#90A4AE"
+                android:textStyle=""
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+                android:text="Post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/slr"
+                android:padding="10dp"
+                android:background="#78909C"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+                android:text="Salary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nps"
+                android:padding="10dp"
+                android:background="#607D8B"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+                android:text="No. of Post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/req"
+                android:padding="10dp"
+                android:background="#546E7A"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+                android:text="Requirement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/edu"
+                android:padding="10dp"
+                android:background="#455A64"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+                android:text="Education"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/exp"
+                android:padding="10dp"
+                android:background="#37474F"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+                android:text="Experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+</ScrollView>

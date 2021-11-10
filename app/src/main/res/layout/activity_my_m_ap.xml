@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyMAp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/mp"
+            android:layout_width="match_parent"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:ignore="MissingClass" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/cm"
+                android:background="#456789"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="#454545"
+                android:textStyle="bold"
+                android:text="Petknolionc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        <TextView
+            android:id="@+id/eml"
+                android:textSize="20dp"
+                android:textColor="#454545"
+                android:textStyle="bold"
+                android:text="Petknolionc@gmail.com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/cnt"
+                android:textSize="20dp"
+                android:textColor="#454545"
+                android:textStyle="bold"
+                android:text="9909183551"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/tc"
+                android:textSize="20dp"
+                android:textColor="#454545"
+                android:textStyle="bold"
+                android:text="Android,Php,Java"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/adr"
+                android:text="Address"
+                android:textSize="20dp"
+                android:textColor="#454545"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TextView>
+        </LinearLayout>
+</LinearLayout>
+

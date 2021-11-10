@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_pg"
+    android:background="@drawable/php"
+    android:gravity="center">
+
+    <TextView
+        android:gravity="center"
+        android:text="WELCOME TO THE DEVELOPER HOUSE"
+        android:textStyle="bold"
+        android:textColor="#9C8998"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+</LinearLayout>

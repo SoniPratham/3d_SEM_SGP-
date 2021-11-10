@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/prf"
+            android:title="Profile" />
+        <item
+            android:id="@+id/wp"
+            android:title="Work Profile" />
+
+        <item
+            android:id="@+id/awp"
+            android:title="Add Work Profile" />
+
+        <item
+            android:id="@+id/ap"
+            android:title="Add Project" />
+
+        <item
+            android:id="@+id/com"
+            android:title="Company" />
+
+        <item
+            android:id="@+id/lu"
+            android:title="List of User" />
+
+        <item
+            android:id="@+id/j"
+            android:title="Job" />
+
+
+
+
+        <item
+            android:id="@+id/lp"
+            android:title="List of Project" />
+
+
+        <item
+            android:id="@+id/nu"
+            android:title="Number of User" />
+
+        <item
+            android:id="@+id/fb"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/add"
+            android:title="Add Feedback" />
+
+        <item
+            android:id="@+id/lo"
+            android:title="Logout" />
+    </group>
+</menu>

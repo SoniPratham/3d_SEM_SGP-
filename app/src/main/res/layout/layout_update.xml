@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="#59050505"
+        android:orientation="vertical"
+        tools:context=".Registration">
+
+
+        <EditText
+            android:background="@drawable/edittext"
+            android:padding="10dp"
+            android:id="@+id/user_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext"
+            android:padding="10dp"
+            android:id="@+id/password_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            />
+
+        <EditText
+            android:background="@drawable/edittext"
+            android:padding="10dp"
+            android:id="@+id/email_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:background="@drawable/edittext"
+            android:padding="10dp"
+            android:id="@+id/contact_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:background="@drawable/edittext"
+            android:padding="10dp"
+            android:id="@+id/city_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:background="@drawable/edittext"
+            android:padding="10dp"
+            android:id="@+id/address_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:background="@drawable/edittext"
+            android:padding="10dp"
+            android:id="@+id/technology_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="technology"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:background="@drawable/edittext"
+            android:padding="10dp"
+            android:id="@+id/experience_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Experience"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:background="#FBC02D"
+            android:id="@+id/update_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"/>
+
+</LinearLayout>
